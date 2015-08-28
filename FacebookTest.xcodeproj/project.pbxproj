@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428EB371B8F903D00F86439 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0428EB361B8F903D00F86439 /* FBSDKShareKit.framework */; };
 		045BF95A1B8F832F00FEF623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF9591B8F832F00FEF623 /* AppDelegate.swift */; };
 		045BF95C1B8F832F00FEF623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF95B1B8F832F00FEF623 /* ViewController.swift */; };
 		045BF95F1B8F832F00FEF623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045BF95D1B8F832F00FEF623 /* Main.storyboard */; };
 		045BF9611B8F832F00FEF623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045BF9601B8F832F00FEF623 /* Images.xcassets */; };
 		045BF9641B8F832F00FEF623 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045BF9621B8F832F00FEF623 /* LaunchScreen.xib */; };
 		045BF9701B8F832F00FEF623 /* FacebookTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BF96F1B8F832F00FEF623 /* FacebookTestTests.swift */; };
+		045BF97A1B8F835F00FEF623 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045BF9791B8F835F00FEF623 /* FBSDKCoreKit.framework */; };
+		045BF97C1B8F855C00FEF623 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045BF97B1B8F855C00FEF623 /* Bolts.framework */; };
+		045BF97E1B8F856000FEF623 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045BF97D1B8F856000FEF623 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0428EB361B8F903D00F86439 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		045BF9541B8F832F00FEF623 /* FacebookTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045BF9581B8F832F00FEF623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045BF9591B8F832F00FEF623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		045BF9691B8F832F00FEF623 /* FacebookTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045BF96E1B8F832F00FEF623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045BF96F1B8F832F00FEF623 /* FacebookTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTestTests.swift; sourceTree = "<group>"; };
+		045BF9791B8F835F00FEF623 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		045BF97B1B8F855C00FEF623 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/Bolts.framework"; sourceTree = "<group>"; };
+		045BF97D1B8F856000FEF623 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045BF97A1B8F835F00FEF623 /* FBSDKCoreKit.framework in Frameworks */,
+				045BF97C1B8F855C00FEF623 /* Bolts.framework in Frameworks */,
+				045BF97E1B8F856000FEF623 /* FBSDKLoginKit.framework in Frameworks */,
+				0428EB371B8F903D00F86439 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +71,10 @@
 		045BF94B1B8F832F00FEF623 = {
 			isa = PBXGroup;
 			children = (
+				0428EB361B8F903D00F86439 /* FBSDKShareKit.framework */,
+				045BF97D1B8F856000FEF623 /* FBSDKLoginKit.framework */,
+				045BF97B1B8F855C00FEF623 /* Bolts.framework */,
+				045BF9791B8F835F00FEF623 /* FBSDKCoreKit.framework */,
 				045BF9561B8F832F00FEF623 /* FacebookTest */,
 				045BF96C1B8F832F00FEF623 /* FacebookTestTests */,
 				045BF9551B8F832F00FEF623 /* Products */,
@@ -340,6 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/quynh/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = FacebookTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +370,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/quynh/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = FacebookTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +433,7 @@
 				045BF9751B8F832F00FEF623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045BF9761B8F832F00FEF623 /* Build configuration list for PBXNativeTarget "FacebookTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				045BF9781B8F832F00FEF623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
